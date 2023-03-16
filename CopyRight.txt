@@ -1,0 +1,11 @@
+<span id="lblfecha"></span>
+
+<!-- Actualización del año del Copyright-->
+	<script>
+		document.addEventListener("DOMContentLoaded",()=>{
+		let label=document.querySelector("#lblfecha");
+		console.log(label)
+		let fecha=new Date();
+		label.textContent=`© Copyright ${fecha.getFullYear()}  101 S.A.S.`
+		})
+	</script>

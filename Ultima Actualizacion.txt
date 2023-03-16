@@ -1,0 +1,10 @@
+<strong>Última Fecha de Modificación: <span id="ultima_actualizacion"></span>
+</strong>
+					
+<script>
+let ultimaActualizacion = new Date(document.lastModified);
+let ultima = document.getElementById('ultima_actualizacion');
+					
+					ultima.innerHTML = ultimaActualizacion.toLocaleString();
+					</script>
+					
